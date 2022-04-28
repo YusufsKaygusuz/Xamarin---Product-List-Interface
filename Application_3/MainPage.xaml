@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application_3.MainPage"
+             Padding="20,50"
+             BackgroundColor="#f1f1f1">
+
+    <ScrollView>
+
+        <StackLayout>
+        <Label Text="Apple Products"
+               TextColor="#fe9801"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontSize="30"
+               Margin="0,0,0,20"/>
+
+
+        <StackLayout BackgroundColor="White" 
+                     Padding="10,15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Apple_Wath_Se.jpg" WidthRequest="100"/>
+                <StackLayout>
+                    <Label Text="Apple Watch SE" FontSize="18" FontAttributes="Bold"/>
+                    <Label Text="Apple Watch SE GPS, 44mm Gold Aluminium Case with Starlight Sport Band - Regular MKQ53TU/A"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+                        <Label Text="2999 ₺" TextColor="Gray" TextDecorations="Strikethrough" VerticalOptions="Center"/>
+                        <Label Text="2499 ₺" TextColor="#fe9801" FontAttributes="bold" FontSize="22" VerticalOptions="Center"/>
+                        <Button Text="Search" BackgroundColor="Orange" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="White" 
+                     Padding="10,15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Iphone13Pro.jpg" WidthRequest="100"/>
+                <StackLayout>
+                        <Label Text="Apple iPhone13 Pro" FontSize="18" FontAttributes="Bold"/>
+                        <Label Text="Apple iPhone13 Pro 128GB Mavi Cep Telefonu (Apple Türkiye Garantili) MLVD3TU/A"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+                        <Label Text="21969₺" TextColor="Gray" TextDecorations="Strikethrough" VerticalOptions="Center"/>
+                        <Label Text="21309₺" TextColor="#fe9801" FontAttributes="bold" FontSize="20" VerticalOptions="Center"/>
+                        <Button Text="Search" BackgroundColor="Orange" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="White" 
+                     Padding="10,15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Iphone13.jpg" 
+                       WidthRequest="100"/>
+                <StackLayout>
+                        <Label Text="Apple iPhone 13" FontSize="18" FontAttributes="Bold"/>
+                        <Label Text="Apple iPhone 13 128GB Yıldız Işığı Cep Telefonu (Apple Türkiye Garantili) iphone 13"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+                        <Label Text="16138₺" TextColor="Gray" TextDecorations="Strikethrough" VerticalOptions="Center"/>
+                        <Label Text="15815₺" TextColor="#fe9801" FontAttributes="bold" FontSize="20" VerticalOptions="Center"/>
+                        <Button Text="Search" BackgroundColor="Orange" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="White" 
+                     Padding="10,15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="IphoneSE.jpg" WidthRequest="100"/>
+                <StackLayout>
+                    <Label Text="Apple Iphone SE" FontSize="18" FontAttributes="Bold"/>
+                        <Label Text="Apple iPhone SE 64GB Siyah Cep Telefonu Aksesuarsız Kutu AP-IPHOSE-2020"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+                        <Label Text="6999 ₺" TextColor="Gray" TextDecorations="Strikethrough" VerticalOptions="Center"/>
+                        <Label Text="6849 ₺" TextColor="#fe9801" FontAttributes="bold" FontSize="22" VerticalOptions="Center"/>
+                        <Button Text="Search" BackgroundColor="Orange" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout BackgroundColor="White" 
+                     Padding="10,15">
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Airpods.jpg" WidthRequest="100"/>
+                <StackLayout>
+                    <Label Text="Apple Airpods 2.Nesil" FontSize="18" FontAttributes="Bold"/>
+                        <Label Text="Apple Airpods 2. Nesil Bluetooth Kulaklık Mv7n2tu/a ( Apple Türkiye Garantili)"/>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="End">
+                        <Label Text="1679₺" TextColor="Gray" TextDecorations="Strikethrough" VerticalOptions="Center"/>
+                        <Label Text="1628₺" TextColor="#fe9801" FontAttributes="bold" FontSize="22" VerticalOptions="Center"/>
+                        <Button Text="Search" BackgroundColor="Orange" CornerRadius="15"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+    </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
